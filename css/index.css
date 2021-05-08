@@ -1,0 +1,14 @@
+/*font-family: 'Arvo', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+.font-head {
+    font-family: 'Arvo', serif;
+}
+
+.font-content-gray {
+    font-family: 'Roboto', sans-serif;
+    color: #EDEDED;
+}
+
+.nav-bg-color {
+    background-color: #D8C6C6;
+}
