@@ -21,3 +21,14 @@
     padding-top: .5rem;
     line-height: normal;
 }
+.icon-padding {
+    margin-right: 1rem;
+}
+
+.width100 {
+    width: 100%;
+}
+
+ul>li {
+    margin-left: .7rem;
+}
