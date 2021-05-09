@@ -1,6 +1,10 @@
 /*font-family: 'Arvo', serif;*/
 /*font-family: 'Roboto', sans-serif;*/
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .font-head {
     font-family: 'Arvo', serif;
 }
@@ -31,4 +35,23 @@
 
 ul>li {
     margin-left: .7rem;
+}
+
+.nav-main {
+    background-color: #594844;
+    height: 4rem;
+}
+
+.nav-font-color {
+    color: #EDEDED;
+}
+
+.nav-padding-top {
+    padding-top: .5rem;
+}
+
+/* will be fixed */
+.component-size {
+    width: 1920px;
+    height: 1000px;
 }
