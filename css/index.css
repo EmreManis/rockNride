@@ -52,6 +52,26 @@ ul>li {
 
 /* will be fixed */
 .component-size {
-    width: 1920px;
-    height: 1000px;
+    height: 850px;
+}
+.video-col {
+    width: 530px;
+}
+.video-comp {
+    padding-top: 8rem;
+}
+
+.video-comp-p {
+    width: 20rem;
+    text-align: center;
+}
+
+.video-comp-h1 {
+    padding-top: 0;
+    padding-left: 2rem;
+    font: bold 2.5rem 'Arvo', serif;
+}
+
+.video-comp-h2 {
+    font: italic 1.5rem 'Arvo', serif;
 }
