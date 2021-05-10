@@ -5,8 +5,8 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.font-head {
-    font-family: 'Arvo', serif;
+.font-h1 {
+    font: bold 2.5rem 'Arvo', serif;
 }
 
 .font-content-gray {
@@ -58,7 +58,13 @@ ul>li {
     width: 530px;
 }
 .video-comp {
-    padding-top: 8rem;
+    padding-top: 5rem;
+}
+
+.comp-bg {
+    background: transparent linear-gradient(80deg, var(--unnamed-color-d3c4c4) 0%, #6A6262 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(80deg, #D3C4C4 0%, #6A6262 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
 .video-comp-p {
@@ -74,4 +80,33 @@ ul>li {
 
 .video-comp-h2 {
     font: italic 1.5rem 'Arvo', serif;
+}
+
+.portfolio-comp-photo {
+    background: transparent url('img/Intersection 1.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.box-shadow {
+    box-shadow: 0px 3px 6px #00000080;
+}
+
+.hakkimda-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hakkimda-p {
+    /*padding-top: 5rem;*/
+    padding-bottom: 2rem;
+    padding-right: 7rem;
+}
+
+.hakkimda-img {
+    border-radius: 8rem;
+    opacity: 1;
 }
