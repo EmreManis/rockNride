@@ -9,6 +9,11 @@
     font: bold 2.5rem 'Arvo', serif;
 }
 
+.font-h1-gray {
+    font: bold 2.5rem 'Arvo', serif;
+    color: #EDEDED;
+}
+
 .font-content-gray {
     font-family: 'Roboto', sans-serif;
     color: #EDEDED;
@@ -67,11 +72,6 @@ ul>li {
     opacity: 1;
 }
 
-.video-comp-p {
-    width: 20rem;
-    text-align: center;
-}
-
 .video-comp-h1 {
     padding-top: 0;
     padding-left: 2rem;
@@ -101,12 +101,18 @@ ul>li {
 }
 
 .hakkimda-p {
-    /*padding-top: 5rem;*/
     padding-bottom: 2rem;
-    padding-right: 7rem;
 }
 
 .hakkimda-img {
     border-radius: 8rem;
     opacity: 1;
+}
+
+.padding-h1 {
+    padding-top: 2.5rem;
+}
+
+.tour-p {
+ font: normal 1.25rem 'Roboto';
 }
