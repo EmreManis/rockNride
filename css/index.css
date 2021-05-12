@@ -62,8 +62,11 @@ ul>li {
 .video-col {
     width: 530px;
 }
+
 .video-comp {
-    padding-top: 5rem;
+    background: transparent url('img/video.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
 }
 
 .comp-bg {
@@ -73,7 +76,6 @@ ul>li {
 }
 
 .video-comp-h1 {
-    padding-top: 0;
     padding-left: 2rem;
     font: bold 2.5rem 'Arvo', serif;
 }
@@ -87,7 +89,7 @@ ul>li {
     box-shadow: 0px 3px 6px #00000080;
     opacity: 1;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
 }
 
 .box-shadow {
@@ -115,4 +117,9 @@ ul>li {
 
 .tour-p {
  font: normal 1.25rem 'Roboto';
+}
+
+.iletisim-p {
+    color: darkred;
+    font-size: 2rem;
 }
