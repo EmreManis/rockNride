@@ -9,13 +9,14 @@
     font: bold 2.5rem 'Arvo', serif;
 }
 
-.font-h1-gray {
-    font: bold 2.5rem 'Arvo', serif;
-    color: #EDEDED;
+.font-h2 {
+    font: bold 2rem 'Roboto', serif;
+}
+.font-map {
+    font: 1.5rem 'Roboto', serif;
 }
 
 .font-content-gray {
-    font-family: 'Roboto', sans-serif;
     color: #EDEDED;
 }
 
@@ -115,11 +116,7 @@ ul>li {
     padding-top: 2.5rem;
 }
 
-.tour-p {
- font: normal 1.25rem 'Roboto';
+.footer-comp {
+    height: 12.5rem;
 }
 
-.iletisim-p {
-    color: darkred;
-    font-size: 2rem;
-}
