@@ -46,6 +46,7 @@ ul>li {
 .nav-main {
     background-color: #594844;
     height: 4rem;
+    padding: .5rem 1rem;
 }
 
 .nav-font-color {
@@ -120,3 +121,12 @@ ul>li {
     height: 12.5rem;
 }
 
+#navbar {
+    overflow: hidden;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
