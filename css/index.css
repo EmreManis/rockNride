@@ -1,5 +1,8 @@
 /*font-family: 'Arvo', serif;*/
 /*font-family: 'Roboto', sans-serif;*/
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -49,8 +52,12 @@ ul>li {
     padding: .5rem 1rem;
 }
 
-.nav-font-color {
+.navbar-color{
     color: #EDEDED;
+}
+
+.navbar-color:hover {
+    color: #D8C6C6; !important;
 }
 
 .nav-padding-top {
@@ -129,4 +136,8 @@ ul>li {
     top: 0;
     z-index: 1;
     width: 100%;
+}
+
+.active {
+    color: burlywood;
 }
