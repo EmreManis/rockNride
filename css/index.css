@@ -23,13 +23,12 @@ html {
     color: #EDEDED;
 }
 
-.nav-bg-color {
+.nav-top-content {
+    height: 6rem;
     background-color: #D8C6C6;
+    padding-top: 4rem;
 }
 
-.nav-height {
-    height: 2rem;
-}
 .nav-padding {
     padding-top: .5rem;
     line-height: normal;
@@ -52,12 +51,20 @@ ul>li {
     padding: .5rem 1rem;
 }
 
-.navbar-color{
+/*#navbar {*/
+/*    overflow: hidden;*/
+/*}*/
+
+.navbar-dark .navbar-nav .nav-link{
     color: #EDEDED;
 }
 
-.navbar-color:hover {
-    color: #D8C6C6; !important;
+.navbar-dark:hover .navbar-nav:hover .nav-link:hover {
+    color: #D8C6C6;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: burlywood;
 }
 
 .nav-padding-top {
@@ -128,9 +135,6 @@ ul>li {
     height: 12.5rem;
 }
 
-#navbar {
-    overflow: hidden;
-}
 .sticky {
     position: fixed;
     top: 0;
@@ -138,6 +142,3 @@ ul>li {
     width: 100%;
 }
 
-.active {
-    color: burlywood;
-}

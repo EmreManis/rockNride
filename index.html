@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="./css/index.css">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/index.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,7 +19,8 @@
 <body data-spy="scroll" data-target="#deneme" data-offset="0">
 
 <section id="startup"> <!-- Navigation -->
-    <div class="container-fluid nav-bg-color nav-height">
+
+    <div class="container-fluid nav-top-content nav-height">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-9 nav-padding">
@@ -34,40 +35,43 @@
         </div>
     </div>
 
-    <nav class="navbar-expand-lg nav-main" id="navbar">
-        <div class="container">
-            <div class="row width100">
-                <div class="col-4">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/image/logo.png" alt="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col-8">
-                        <ul class="navbar-nav nav-padding-top" id="deneme">
-                            <li class="nav-item ">
-                                <a class="nav-link navbar-color active" href="#startup">ANA SAYFA<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link  navbar-color" href="#parkur">PARKUR</a>
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg nav-main" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="container">
+                <div class="row width100">
+                    <div class="col-4 d-none d-lg-block">
+                        <a class="navbar-brand" href="#">
+                            <img src="./assets/image/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-8">
+                            <ul class="nav-padding-top navbar-nav" id="deneme">
+                                <li class="nav-item ">
+                                    <a class="nav-link navbar-color active" href="#startup">ANA SAYFA<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#parkur">PARKUR</a>
+                                </li> <li class="nav-item">
+                                <a class="nav-link" href="#hakkimda">HAKKIMDA</a>
                             </li> <li class="nav-item">
-                            <a class="nav-link  navbar-color" href="#hakkimda">HAKKIMDA</a>
-                        </li> <li class="nav-item">
-                            <a class="nav-link  navbar-color" href="#turlar">TURLAR</a>
-                        </li> <li class="nav-item">
-                            <a class="nav-link  navbar-color" href="#egitim">EĞİTİM</a>
-                        </li> </li> <li class="nav-item">
-                            <a class="nav-link  navbar-color" href="#kiralama">KİRALAMA</a>
-                        </li> </li> </li> <li class="nav-item">
-                            <a class="nav-link  navbar-color" href="#adres">ADRES</a>
-                        </li>
-                        </ul>
+                                <a class="nav-link" href="#turlar">TURLAR</a>
+                            </li> <li class="nav-item">
+                                <a class="nav-link" href="#egitim">EĞİTİM</a>
+                            </li> </li> <li class="nav-item">
+                                <a class="nav-link" href="#kiralama">KİRALAMA</a>
+                            </li> </li> </li> <li class="nav-item">
+                                <a class="nav-link" href="#adres">ADRES</a>
+                            </li>
+                            </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
+
 </section>
 
 <section> <!-- Body -->
@@ -239,7 +243,6 @@
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="./js/jquery-3.6.0.slim.min.js"></script>
 <script src="./js/bootstrap.bundle.min.js"></script>
-<script src="./index.js"></script>
 
 
 </body>
