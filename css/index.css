@@ -24,9 +24,9 @@ html {
 }
 
 .nav-top-content {
-    height: 6rem;
+    height: 7rem;
     background-color: #D8C6C6;
-    padding-top: 4rem;
+    padding-top: 5rem;
 }
 
 .nav-padding {
@@ -47,13 +47,15 @@ ul>li {
 
 .nav-main {
     background-color: #594844;
-    height: 4rem;
+    height: 5rem;
     padding: .5rem 1rem;
+    /*overflow: auto;*/
 }
 
-/*#navbar {*/
-/*    overflow: hidden;*/
-/*}*/
+.navbar-collapse {
+    background: #594844;
+    padding: 0;
+}
 
 .navbar-dark .navbar-nav .nav-link{
     color: #EDEDED;
