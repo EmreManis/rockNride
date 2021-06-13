@@ -47,7 +47,6 @@ ul>li {
 
 .nav-main {
     background-color: #594844;
-    height: 5rem;
     padding: .5rem 1rem;
     /*overflow: auto;*/
 }
@@ -75,8 +74,9 @@ ul>li {
 
 /* will be fixed */
 .component-size {
-    height: 1000px;
+    min-height: 62.5rem;
 }
+
 .video-col {
     width: 530px;
 }
@@ -112,12 +112,6 @@ ul>li {
 
 .box-shadow {
     box-shadow: 0px 3px 6px #00000080;
-}
-
-.hakkimda-flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .hakkimda-p {
