@@ -103,11 +103,9 @@ ul>li {
 }
 
 .portfolio-comp-photo {
-    background: transparent url('img/Intersection 1.png') 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 6px #00000080;
     opacity: 1;
     border-radius: 50%;
-    /*margin-bottom: 2rem;*/
 }
 
 .box-shadow {
